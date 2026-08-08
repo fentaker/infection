@@ -1,0 +1,17 @@
+name: AllumInfection
+version: '1.1.0'
+main: com.allum.infection.InfectionPlugin
+api-version: '1.21'
+author: "Allum: GO!"
+description: Грибковая инфекция, распространяющаяся по блокам и мобам.
+
+commands:
+  infection:
+    description: Управление инфекцией
+    usage: /infection <tool|stop|resume|kill|info|time|cure>
+    permission: allum.infection.admin
+
+permissions:
+  allum.infection.admin:
+    description: Доступ к командам управления инфекцией
+    default: op
